@@ -1,0 +1,31 @@
+{
+  "name": "fixed-floor",
+  "version": "1.0.0",
+  "description": "Math.floor with fixed, formats a number using fixed-point notation and returns a number.",
+  "main": "index.js",
+  "scripts": {
+    "test-travis": "nyc npm test && nyc report --reporter=lcov",
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TCharts/fixed-floor.git"
+  },
+  "keywords": [
+    "floor",
+    "toFixed",
+    "fixed-floor"
+  ],
+  "author": "ProtoTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TCharts/fixed-floor/issues"
+  },
+  "homepage": "https://github.com/TCharts/fixed-floor#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "expect": "^1.14.0",
+    "mocha": "^2.4.5",
+    "nyc": "^5.6.0"
+  }
+}
